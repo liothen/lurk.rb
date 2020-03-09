@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bindata (2.4.6)
+    colorize (0.8.1)
+    curses (1.3.2)
+    equatable (0.5.0)
+    ncurses-ruby (1.2.4)
+    necromancer (0.4.0)
+    pastel (0.7.2)
+      equatable (~> 0.5.0)
+      tty-color (~> 0.4.0)
+    tty-color (0.4.3)
+    tty-cursor (0.4.0)
+    tty-prompt (0.12.0)
+      necromancer (~> 0.4.0)
+      pastel (~> 0.7.0)
+      tty-cursor (~> 0.4.0)
+      wisper (~> 1.6.1)
+    wisper (1.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bindata
+  colorize
+  curses
+  ncurses-ruby
+  tty-prompt
+
+BUNDLED WITH
+   2.1.4
